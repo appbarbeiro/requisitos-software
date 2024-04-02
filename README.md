@@ -9,9 +9,9 @@ Olá! Este repositório faz parte do projeto da disciplina de Requisitos de Soft
 Grupo: **App Barber**
 - Integrantes:
   - [Marcelo Augusto de Oliveira](https://github.com/marceloaugustooliveira)
-  - [Renato de Matos Junior](https://github.com/renatodts)
-  - [Rodolfo Depieri Gindri](https://github.com/rdgindri)
-  - [Renan Gabriel Bueno](https://github.com/renangbueno)
+  - [Renato de Matos Junior](https://github.com/renatomatosjr)
+  - [Rodolfo Depieri Gindri](https://github.com/rodolfodepierigindri)
+  - [Renan Gabriel Bueno](https://github.com/renangabrielbueno)
 
 ### 1.2. Nome do Sistema
 
@@ -41,11 +41,28 @@ A definição das personas será feita em aula.
 
 ### 2.1. Requisitos de usuário
 
-- A ser fornecido posteriormente.
+- Os clientes podem desmarcar ou trocar horários com até 24 horas de antecedência.
+- Pagamento de taxa para desmarcar horário.
+- Localização de barbearias próximas.
+- Feedback dos clientes.
+- Barberias verificadas.
+- Fotos exemplificando cortes.
+- Pagamento pelo site.
+
+- Mais detalhes serão fornecidos posteriormente
 
 ### 2.2. Requisitos de sistema
 
-- A ser fornecido posteriormente.
+- Interface intuitiva para clientes desmarcarem ou alterarem horários com 24 horas de antecedência.
+- Funcionalidade para pagamento de taxa de desmarcação.
+- Processamento seguro e eficaz de pagamentos.
+- Verificação de barbearias cadastradas para autenticidade e qualidade.
+- Exibição de selo de "barbearia verificada".
+- Upload de fotos de cortes pelas barbearias.
+- Visualização de fotos pelos clientes.
+- Pagamento online integrado com sistema seguro.
+
+- Mais detalhes serão fornecidos posteriormente
 
 ### 2.3. Protótipos
 
@@ -56,27 +73,6 @@ A definição das personas será feita em aula.
 Ainda não disponíveis.
 
 ---
-
-### Requisitos de Usuário:
-
-- Os clientes podem desmarcar ou trocar horários com até 24 horas de antecedência.
-- Pagamento de taxa para desmarcar horário.
-- Localização de barbearias próximas.
-- Feedback dos clientes.
-- Barberias verificadas.
-- Fotos exemplificando cortes.
-- Pagamento pelo site.
-
-### Requisitos de Sistema:
-
-- Interface intuitiva para clientes desmarcarem ou alterarem horários com 24 horas de antecedência.
-- Funcionalidade para pagamento de taxa de desmarcação.
-- Processamento seguro e eficaz de pagamentos.
-- Verificação de barbearias cadastradas para autenticidade e qualidade.
-- Exibição de selo de "barbearia verificada".
-- Upload de fotos de cortes pelas barbearias.
-- Visualização de fotos pelos clientes.
-- Pagamento online integrado com sistema seguro.
 
 ### Objetivo do Sistema:
 
