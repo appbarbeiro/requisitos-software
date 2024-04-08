@@ -37,6 +37,18 @@ Os usuários finais do sistema Nova Era Barber Lounge incluem:
 
 A definição das personas será feita em aula.
 
+### Cenários:
+
+**Cenário: Antes**
+
+Carlos é um cliente regular de um barbeiro chamado Miguel. Ele gosta de manter seu visual sempre impecável e costuma frequentar o salão de Miguel a cada duas semanas. No entanto, Carlos sempre enfrenta dificuldades ao tentar marcar um horário com Miguel. Eles usam o WhatsApp para essa comunicação, mas muitas vezes Miguel está ocupado cortando cabelos e não consegue responder imediatamente. Isso leva a atrasos na confirmação do horário, e Carlos fica frustrado por não conseguir agendar sua visita com antecedência. Além disso, quando finalmente consegue uma resposta de Miguel, pode acontecer de o horário desejado já estar ocupado, o que complica ainda mais a situação e aumenta a ansiedade de Carlos em garantir seu lugar na agenda do barbeiro.
+
+**Cenário: Depois**
+
+Lucas é outro cliente fiel de Miguel, o barbeiro. Ele sempre foi pontual em seus cortes de cabelo, mas enfrentava problemas para agendar horários devido à comunicação via WhatsApp. No entanto, recentemente, Miguel começou a utilizar um aplicativo chamado "Agenda do Barbeiro", que permite aos clientes visualizar disponibilidade de horários e agendar suas visitas de forma simples e rápida. Agora, Lucas pode facilmente selecionar o horário desejado e confirmar sua reserva, tudo através do aplicativo, sem depender da disponibilidade de Miguel para responder mensagens. Isso não só tornou o processo de agendamento mais conveniente para Lucas, mas também para Miguel, que não precisa mais interromper seu trabalho para responder mensagens e pode focar melhor em atender seus clientes com excelência.
+
+Imagens em breve...
+
 ## 2. Documentos gerais no repositório
 
 ### 2.1. Requisitos de usuário
