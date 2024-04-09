@@ -33,9 +33,11 @@ Os usuários finais do sistema Nova Era Barber Lounge incluem:
 - Clientes: Homens que desejam agendar serviços de barbearia.
 - Proprietários e Funcionários de Barbearias: Responsáveis pela gestão dos agendamentos e prestação dos serviços.
 
+[Anexo: Perfil do usuário](https://github.com/appbarbeiro/requisitos-software/blob/main/assets/tabela%20perfil%20do%20usuario.jpeg)
+
 #### Personas:
 
-A definição das personas será feita em aula.
+[Anexo: Personas de usuário](https://github.com/appbarbeiro/requisitos-software/blob/main/assets/Personas.pdf)
 
 ### Cenários:
 
@@ -47,7 +49,7 @@ Carlos é um cliente regular de um barbeiro chamado Miguel. Ele gosta de manter 
 
 Lucas é outro cliente fiel de Miguel, o barbeiro. Ele sempre foi pontual em seus cortes de cabelo, mas enfrentava problemas para agendar horários devido à comunicação via WhatsApp. No entanto, recentemente, Miguel começou a utilizar um aplicativo chamado "App Barber", que permite aos clientes visualizar disponibilidade de horários e agendar suas visitas de forma simples e rápida, além de saber quais são as barbearias mais próximas da sua casa e seus melhores cortes. Agora, Lucas pode facilmente selecionar o horário desejado e confirmar sua reserva, tudo através do aplicativo, sem depender da disponibilidade de Miguel para responder mensagens. Isso não só tornou o processo de agendamento mais conveniente para Lucas, mas também para Miguel, que não precisa mais interromper seu trabalho para responder mensagens, e não precisa mais fazer agendas manuais, podendo focar melhor em atender seus clientes com excelência.
 
-Imagens em breve...
+[Anexo: Cenários](https://github.com/appbarbeiro/requisitos-software/blob/main/assets/cenario.jpeg)
 
 ## 2. Documentos gerais no repositório
 
