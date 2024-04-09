@@ -1,0 +1,245 @@
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+html{
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    animation: fadeIn 1s ease-in;
+    overflow-x: hidden;
+    margin: 0;
+    height: 100vh;
+    max-width: 100%;
+    padding: 0;
+    background-size: cover;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgb(250, 249, 255);
+}
+.conteudo {
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    max-width: 100%;
+    height: 100vh;
+    
+}
+.cabecalho{
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.coluna{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex: 1;
+    justify-content: center;
+    text-align: left;
+    margin: 5%;
+    margin-top: 0;
+    height: min-content;
+    max-width: 100%;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+}
+
+
+.imagem-menu {
+    background-image: url('quadrado.png');
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    margin: 0;
+    background-position: cover;
+    justify-content: center; /* Alinha os itens horizontalmente no centro */
+    align-items: center; /* Alinha os itens verticalmente */
+    flex-direction: column; /* Faz os itens ficarem em uma linha */
+}
+
+
+.menu {
+    display: flex;
+    gap: 100px;
+    top: 1.5%;
+    position: absolute;
+}
+
+.menu a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    background-color: rgb(255, 255, 255);
+    color: #f2f2f2;
+    transition: 0.6s;
+    color: black;
+}
+
+.texto-menu {
+    text-align: center;
+    color: white;
+}
+
+.texto-menu h1 {
+    font-weight: bold;
+    font-size: 4em;
+    padding: 0;
+    padding-bottom: 0;
+}
+
+.texto-menu h2 {
+    font-weight: lighter;
+    margin-top: -50px;
+    font-size: 2em;
+}
+
+* {
+    box-sizing: border-box;
+}
+  
+.columns {
+    float: left;
+    width: 41.1%;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+}
+  
+  /* Style the list */
+.price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  
+  /* Add shadows on hover */
+.price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+  }
+  
+  /* Pricing header */
+.price .header {
+    background-color: #111;
+    color: white;
+    font-size: 25px;
+  }
+  
+  /* List items */
+.price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Grey list item */
+.price .grey {
+    background-color: #eee;
+    font-size: 20px;
+  }
+
+  
+  /* The "Sign Up" button */
+.button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.button:hover {
+    background-color: #2fda38;
+}
+
+.button2 {
+    margin: 0;
+    background-color: #00485a;
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.button2:hover {
+    background-color: #00a1b0;
+}
+
+.button3 {
+    background-color: #111;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.button3:hover {
+    background-color: #444;
+}
+
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
