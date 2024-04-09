@@ -34,20 +34,26 @@ var horarios = ["08:00", "08:30", "09:00", "09:30", "10:00", "10:30", "11:00"];
             return weekNo;
         }   
 
-        function atualizarTabela(semana) {
-            $('#tabelaHorarios').empty();
-            $('#tabelaHorarios').append('<tr><th style="width: 5vh;">HORÁRIO</th><th>SEGUNDA</th><th>TERÇA-FEIRA</th><th>QUARTA-FEIRA</th><th>QUINTA-FEIRA</th><th>SEXTA-FEIRA</th><th>SÁBADO</th><th>DOMINGO</th></tr>');
-            for (var i = 0; i < horarios.length; i++) {
-                var linha = "<tr><th>" + horarios[i] + "</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>";
-                $('#tabelaHorarios').append(linha);
-            }
-                $("td").click(function(){
-                    if ($(this).hasClass("reservado")) {
-                        $(this).removeClass("reservado");
-                        $(this).text("");
-                    } else {
-                        $(this).addClass("reservado");
-                        $(this).text("RESERVADO");
-                    }
-                });
-            }
+function atualizarTabela(semana) {
+    $('#tabelaHorarios').empty();
+    $('#tabelaHorarios').append('<tr><th style="width: 5vh;">HORÁRIO</th><th>SEGUNDA</th><th>TERÇA-FEIRA</th><th>QUARTA-FEIRA</th><th>QUINTA-FEIRA</th><th>SEXTA-FEIRA</th><th>SÁBADO</th><th>DOMINGO</th></tr>');
+    for (var i = 0; i < horarios.length; i++) {
+        var linha = "<tr><th>" + horarios[i] + "</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>";
+        $('#tabelaHorarios').append(linha);
+    }
+    $("td").each(function() {
+        if (Math.random() < 0.3) { // 30% chance of adding the class
+            $(this).addClass("reservado");
+            $(this).text("RESERVADO");
+        }
+    });
+    $("td").click(function(){
+        if ($(this).hasClass("reservado")) {
+            $(this).removeClass("reservado");
+            $(this).text("");
+        } else {
+            $(this).addClass("reservado");
+            $(this).text("RESERVADO");
+        }
+    });
+}
