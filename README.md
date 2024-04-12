@@ -80,7 +80,7 @@ Lucas é outro cliente fiel de Miguel, o barbeiro. Ele sempre foi pontual em seu
 
 ### 2.3. Protótipos
 
-- A ser fornecido posteriormente.
+- [Site: Protótipo em HTML](https://appbarbeiro.github.io/requisitos-software/)
 
 ## Referências
 
