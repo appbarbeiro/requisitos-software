@@ -76,6 +76,20 @@ Lucas é outro cliente fiel de Miguel, o barbeiro. Ele sempre foi pontual em seu
 - Visualização de fotos pelos clientes.
 - Pagamento online integrado com sistema seguro.
 
+| Identificador | Descrição                                        |
+|---------------|--------------------------------------------------|
+| RF01          | Barbeiro pode fazer login no aplicativo para gerenciar minha barbearia. |
+| RF02          | Barbeiro pode adicionar informações sobre barbearia, como nome, endereço, horário de funcionamento e serviços oferecidos. |
+| RF03          | Barbeiro pode adicionar fotos da barbearia para apresentar aos clientes em potencial. |
+| RF04          | Barbeiro pode visualizar e gerenciar as reservas feitas pelos clientes. |
+| RF05          | Cliente pode visualizar os horários disponíveis para reserva em uma barbearia. |
+| RF06          | Cliente pode fazer uma reserva em um horário disponível em uma barbearia. |
+| RF07          | Cliente pode cancelar uma reserva previamente feita. |
+| RF08          | Cliente pode pagar pelas reservas feitas através do aplicativo. |
+| RF09          | CLiente pode ver as avaliações e comentários de outras pessoas sobre uma barbearia. |
+| RF10          | Cliente pode marcar como assinar um plano para uma barbearia que gostou para garantir reservas posteriormente. |
+
+
 - Mais detalhes serão fornecidos posteriormente
 
 ### 2.3. Protótipos
