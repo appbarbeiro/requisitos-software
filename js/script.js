@@ -161,39 +161,16 @@ window.onload = function() {
   });
 };
 
-criar_reserva.addEventListener('click', function(){
+criar_reserva.addEventListener('click', function(event){
+  event.preventDefault();
+  window.location.hash = 'reservar';
   criarReserva();
 });
 
-ver_reserva.addEventListener('click', function(){
+ver_reserva.addEventListener('click', function(event){
+  event.preventDefault();
+  window.location.hash = 'verreserva';
   var tel = document.getElementById("consulta_telefone").value;
   var nro = document.getElementById("consulta_reserva").value;
   verReserva(tel, nro);
 });
-
-/*document.getElementById("pagamento_app").addEventListener('click', function(){
-  var reservas = JSON.parse(localStorage.getItem('reservas'));
-  let nro_verreserva = document.getElementById("consulta_reserva");
-  let telefone = document.getElementById("telefone");
-
-  if(nro_verreserva != ''){
-    for(let i = 0; i<reservas.length; i++){
-      if (reservas[i].numreserva == nro_verreserva){
-        reservas[i].pagou = true;
-      }
-    }
-  }
-  else if (telefone != ''){
-    for(let i = 0; i<reservas.length; i++){
-      if (reservas[i].telefone == telefone){
-        reservas[i].pagou = true;
-      }
-    }
-  }
-  else{
-    return;
-  }
-  
-  window.location.href = 'pagamento.html';
-  
-});*/
