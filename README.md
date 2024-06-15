@@ -95,6 +95,8 @@ Lucas é outro cliente fiel de Miguel, o barbeiro. Ele sempre foi pontual em seu
 ### 2.3. Protótipos
 
 - [Site: Protótipo em HTML](https://appbarbeiro.github.io/requisitos-software/)
+- [Protótipo para inserir no NinjaMock](https://drive.google.com/drive/folders/1hG6ZIEAQV1bZO6faVGajxqtPyz5OWqdm?usp=sharing)
+- [Site com banco de dados](https://shavee.shop/)
 
 ## Referências
 
