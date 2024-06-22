@@ -98,6 +98,10 @@ Lucas é outro cliente fiel de Miguel, o barbeiro. Ele sempre foi pontual em seu
 - [Protótipo para inserir no NinjaMock](https://drive.google.com/drive/folders/1hG6ZIEAQV1bZO6faVGajxqtPyz5OWqdm?usp=sharing)
 - [Site com banco de dados](https://shavee.shop/)
 
+### 2.4. Diagramas
+
+- [Anexo: Diagramas](https://github.com/appbarbeiro/requisitos-software/blob/main/diagramas/)
+
 ## Referências
 
 Ainda não disponíveis.
