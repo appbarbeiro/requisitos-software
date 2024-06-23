@@ -132,6 +132,10 @@ Lucas é outro cliente fiel de Miguel, o barbeiro. Ele sempre foi pontual em seu
 
 - [Anexo: Diagramas](https://github.com/appbarbeiro/requisitos-software/blob/main/diagramas/)
 
+- ### 2.5. Matrizes de rastreabilidade
+  
+- [Anexo: Matriz de rastreabilidade](https://github.com/appbarbeiro/requisitos-software/blob/main/matrizesrastreabilidade/)
+  
 ## Referências
 
 Ainda não disponíveis.
