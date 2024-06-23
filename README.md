@@ -76,7 +76,7 @@ Lucas é outro cliente fiel de Miguel, o barbeiro. Ele sempre foi pontual em seu
 - Visualização de fotos pelos clientes.
 - Pagamento online integrado com sistema seguro.
   
-# Requisitos Funcionais
+### Requisitos Funcionais
 
 | Identificador | Descrição                                        |
 |---------------|--------------------------------------------------|
@@ -91,7 +91,7 @@ Lucas é outro cliente fiel de Miguel, o barbeiro. Ele sempre foi pontual em seu
 | RF09          | CLiente pode ver as avaliações e comentários de outras pessoas sobre uma barbearia. |
 | RF10          | Cliente pode marcar como assinar um plano para uma barbearia que gostou para garantir reservas posteriormente. |
 
-# Requisitos não Funcionais
+### Requisitos não Funcionais
 
 | Identificador | Descrição                                        |
 |---------------|--------------------------------------------------|
@@ -107,7 +107,20 @@ Lucas é outro cliente fiel de Miguel, o barbeiro. Ele sempre foi pontual em seu
 | RNF20	        | O aplicativo deve ser atualizado regularmente, para garantir que atenda às necessidades dos usuários e acompanhe as tendências do mercado.|
 
 
-- Mais detalhes serão fornecidos posteriormente
+### Histórias de usuários
+
+| Identificador | Descrição |
+|---------------|--------------------------------------------------|
+| 1 | Como barbeiro, quero adicionar informações sobre minha barbearia, como nome, endereço e horário de funcionamento. |
+| 2 | Como barbeiro, quero adicionar fotos da minha barbearia para mostrar aos clientes o ambiente e os serviços que ofereço. |
+| 3 | Como barbeiro, quero visualizar e gerenciar as reservas feitas pelos clientes, para que eu possa me organizar e atender a todos com eficiência. |
+| 4 | Como barbeiro, quero receber notificações quando um cliente fizer uma reserva, para que eu possa confirmar a reserva e me preparar para o atendimento. |
+| 5 | Como barbeiro, quero analisar as avaliações e comentários dos clientes para que eu possa melhorar meus serviços e a experiência dos clientes. |
+| 6 | Como cliente, quero encontrar barbearias perto de mim e ver informações sobre elas, como nome, endereço, horário de funcionamento, fotos e avaliações. |
+| 7 | Como cliente, quero visualizar os horários disponíveis para reserva em uma barbearia e escolher o horário que melhor me atender. |
+| 8 | Como cliente, quero pagar pela minha reserva online com segurança e tranquilidade, utilizando diferentes formas de pagamento. |
+| 9 | Como cliente, quero cancelar ou reagendar minha reserva online, caso precise fazer alguma alteração. |
+| 10 | Como cliente, quero assinar um plano de fidelidade para uma barbearia que eu gosto e ter acesso a descontos e benefícios exclusivos. |
 
 ### 2.3. Protótipos
 
