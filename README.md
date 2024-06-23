@@ -75,6 +75,8 @@ Lucas é outro cliente fiel de Miguel, o barbeiro. Ele sempre foi pontual em seu
 - Upload de fotos de cortes pelas barbearias.
 - Visualização de fotos pelos clientes.
 - Pagamento online integrado com sistema seguro.
+  
+# Requisitos Funcionais
 
 | Identificador | Descrição                                        |
 |---------------|--------------------------------------------------|
@@ -88,6 +90,21 @@ Lucas é outro cliente fiel de Miguel, o barbeiro. Ele sempre foi pontual em seu
 | RF08          | Cliente pode pagar pelas reservas feitas através do aplicativo. |
 | RF09          | CLiente pode ver as avaliações e comentários de outras pessoas sobre uma barbearia. |
 | RF10          | Cliente pode marcar como assinar um plano para uma barbearia que gostou para garantir reservas posteriormente. |
+
+# Requisitos não Funcionais
+
+| Identificador | Descrição                                        |
+|---------------|--------------------------------------------------|
+| RNF11	        | O aplicativo deve ser responsivo e rápido, com tempos de carregamento curtos e navegação fluida, mesmo em dispositivos móveis com recursos limitados.|
+| RNF12	        | O sistema deve ser capaz de suportar um alto número de usuários simultâneos, garantindo estabilidade.|
+| RNF13	        | A arquitetura do aplicativo deve ser escalável para acomodar um número crescente de usuários, serviços e barbearias sem afetar o desempenho ou a confiabilidade do sistema.|
+| RNF14	        | O sistema deve ser resistente a ataques comuns, como injeção de SQL, malwares e phishing, para garantir a integridade das informações.|
+| RNF15	        | A interface do aplicativo deve ser intuitiva e fácil de usar, tanto para barbeiros quanto para clientes, com navegação clara, menus organizados e ícones explicativos.|
+| RNF16	        | O aplicativo deve ser acessível a pessoas com deficiências, seguindo as diretrizes de acessibilidade.|
+| RNF17	        | O sistema deve ser capaz de se adaptar a novas demandas e funcionalidades, garantindo flexibilidade e agilidade no desenvolvimento.|
+| RNF18	        | O sistema deve ter mecanismos de backup para garantir que, em caso de problemas técnicos, os dados sejam preservados.|
+| RNF19	        | O código fonte deve ser bem estruturado, documentado e modular, facilitando a compreensão, modificação e manutenção do sistema.|
+| RNF20	        | O aplicativo deve ser atualizado regularmente, para garantir que atenda às necessidades dos usuários e acompanhe as tendências do mercado.|
 
 
 - Mais detalhes serão fornecidos posteriormente
